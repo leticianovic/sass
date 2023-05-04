@@ -22,3 +22,8 @@
 - Para criar uma variavel basta colocar o cifrão($) e em seguida um nome para a variavel. Exemplo: `$align`
 
 `sass ./scss/style.scss ./css/style.css` A partir do arquivo scss ira gerar um arquivo css na pasta indicada
+
+## Identação / Hierarquia
+- Estruturação de componentes
+- Herança
+- Evita sobreposição

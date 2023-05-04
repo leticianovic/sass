@@ -16,7 +16,7 @@ header, section, footer {
   display: block;
   margin: 0 auto;
   width: 100%;
-  padding: 4rem 0;
+  padding: 2rem 0;
 }
 
 section, .container {
@@ -37,14 +37,14 @@ body {
 }
 
 p {
-  color: #0f0;
+  color: rgb(26, 27, 39);
   font-size: 1.8rem;
   margin-bottom: 2rem;
   text-align: left;
 }
 
 h1 {
-  color: #0f0;
+  color: rgb(26, 27, 39);
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 2.5rem;
   margin-top: 2rem;
@@ -64,10 +64,10 @@ header, footer {
   background-color: #dedede;
 }
 
-.cars h2 {
-  color: #0f0;
+.blocks h2 {
+  color: rgb(26, 27, 39);
 }
-.cars ul {
+.blocks ul {
   list-style-type: none;
   font-size: 1.2rem;
   display: block;
@@ -75,21 +75,21 @@ header, footer {
   padding: 1rem 0;
   width: 100%;
 }
-.cars li {
+.blocks li {
   color: #999;
   display: block;
   float: left;
   margin: 1rem 1.5rem;
   width: 30%;
 }
-.cars li .img-container {
+.blocks li .img-container {
   display: block;
   height: 200px;
   overflow: hidden;
   width: 100%;
 }
-.cars li a {
-  background-color: #0f0;
+.blocks li a {
+  background-color: rgb(143, 155, 200);
   border-radius: 5px;
   color: white;
   display: block;
@@ -98,6 +98,16 @@ header, footer {
   padding: 4px 8px;
   text-align: center;
   text-decoration: none;
+}
+
+.bikes h2 {
+  color: #999;
+}
+.bikes li {
+  color: rgb(26, 27, 39);
+}
+.bikes li a {
+  background-color: #f00;
 }
 
 /*# sourceMappingURL=style.css.map */
