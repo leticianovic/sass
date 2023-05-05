@@ -27,3 +27,7 @@
 - Estruturação de componentes
 - Herança
 - Evita sobreposição
+
+## Partials
+- Modularizar o código
+- Snippets

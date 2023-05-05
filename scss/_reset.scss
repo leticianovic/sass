@@ -1,0 +1,66 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+div, p {
+    display: block;
+}
+
+header, section, footer {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding: 2rem 0;
+}
+
+section, .container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+@import 'vars';
+
+body {
+    font-family: $fontFamilyDefault;
+    font-size: $fontSmall;
+    color: #444;
+}
+
+p {
+    color: $color1;
+    font-size: $fontNormal;
+    margin-bottom: $mb;
+    text-align: $align;
+}
+
+h1 {
+    color: $color1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: $fontBig;
+    margin-top: $mt2;
+}
+
+h2 {
+    color: $color2;
+    font-size: $fontMedium;
+}
+
+h3 {
+    color: $color3;
+    font-size: $fontNormal;
+}
+
+header, footer {
+    background-color: $bgColor;
+}

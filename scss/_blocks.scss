@@ -1,0 +1,44 @@
+@import 'vars';
+
+.blocks {
+    h2 {
+        color: $color1;
+        margin-top: 40px;
+    }
+
+    ul {
+        list-style-type: none;
+        font-size: $fontSmall;
+        display: block;
+        height: 250px;
+        padding: 1rem 0;
+        width: 100%;
+    }
+
+    li {
+        color: $color2;
+        display: block;
+        float: left;
+        margin: 1rem 1.5rem;
+        width: 30%;
+
+        .img-container {
+            display: block;
+            height: 200px;
+            overflow: hidden;
+            width: 100%;
+        }
+
+        a {
+            background-color: $color4;
+            border-radius: 5px;
+            color: white;
+            display: block;
+            font-size: $fontMedium;
+            margin: $mt2 auto $mb;
+            padding: 4px 8px;
+            text-align: center;
+            text-decoration: none;
+        }
+    }
+}

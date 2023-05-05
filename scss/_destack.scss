@@ -1,0 +1,35 @@
+@import 'vars';
+
+.destack {
+    background-color: $colorDefaultB;
+    padding: $spaceDefault;
+    margin: -20px -9.5px;
+
+    h1 {
+        color: $colorDefaultW;
+        float: left;
+        font-size: $fontBig;
+        margin-top: 0;
+    }
+
+    h2 {
+        float: left;
+        font-size: $fontSmall;
+        margin-left: $spaceDefault;
+        margin-top: $mt;
+        color: $color5;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        margin: $spaceDefault auto;
+    }
+
+    p {
+        font-size: $fontNormal;
+        color: $colorDefaultW;
+        padding: 2rem 0;
+        width: 100%;
+    }
+}

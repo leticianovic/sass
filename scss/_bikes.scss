@@ -1,0 +1,15 @@
+@import 'vars';
+
+.bikes {
+    h2 {
+        color: $color1;
+    }
+
+    li {
+        color: $color1;
+
+        a {
+            background-color: $color3;
+        }
+    }
+}

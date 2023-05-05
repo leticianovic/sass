@@ -1,0 +1,10 @@
+@import 'vars';
+
+.header {
+    background-color: $colorDefaultW;
+
+    h1 {
+        display: flex;
+        justify-content: center;
+    }
+}
