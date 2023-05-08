@@ -31,3 +31,8 @@
 ## Partials
 - Modularizar o código
 - Snippets
+
+# SASS II
+
+## Modules
+- `sass ./scss/style.scss ./css/style.css --watch` para ficar obervando toda vez que o arquivo scss estiver sendo alterado e alterar o css

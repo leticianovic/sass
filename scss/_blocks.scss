@@ -1,5 +1,10 @@
 @import 'vars';
 
+@mixin theme($theme: $colorDefaultB, $bg: $color6) {
+    border: 2px solid $theme;
+    background-color: $bg;
+}
+
 .blocks {
     h2 {
         color: $color1;
@@ -16,6 +21,8 @@
     }
 
     li {
+        @include theme($bg: $colorDefaultW);
+
         color: $color2;
         display: block;
         float: left;
@@ -30,6 +37,7 @@
         }
 
         a {
+            width: 80px;
             background-color: $color4;
             border-radius: 5px;
             color: white;
