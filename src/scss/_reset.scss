@@ -1,3 +1,5 @@
+@use 'sass:math';
+
 * {
     border: 0;
     margin: 0;
@@ -19,9 +21,17 @@ header, section, footer {
     padding: 2rem 0;
 }
 
-section, .container {
+section {
+    padding: 0;
+}
+
+.container {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: math.div(1200px, 1200px) * 100%;
+
+    @media (max-width:1199px) {
+        max-width: math.div(1000px, 1200px) * 100%;
+    }
 }
 
 img {
@@ -35,6 +45,7 @@ body {
     font-family: $fontFamilyDefault;
     font-size: $fontSmall;
     color: #444;
+    overflow-x: hidden;
 }
 
 p {

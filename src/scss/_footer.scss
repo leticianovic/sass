@@ -1,0 +1,18 @@
+@import 'vars';
+
+footer {
+    background-color: $colorDefaultB;
+    margin-top: 45px;
+
+    .container {
+        display: flex;
+        justify-content: flex-end;
+
+        p {
+            color: $colorDefaultW;
+            margin-bottom: 0;
+            margin-right: 40px;
+            align-items: center;
+        }
+    }
+}

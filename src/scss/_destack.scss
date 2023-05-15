@@ -3,13 +3,14 @@
 .destack {
     background-color: $colorDefaultB;
     padding: $spaceDefault;
-    margin: -20px -9.5px;
+    margin: 17px -9.5px;
 
     h1 {
         color: $colorDefaultW;
         float: left;
         font-size: $fontBig;
         margin-top: 0;
+        margin-left: $marginLeft;
     }
 
     h2 {
@@ -21,9 +22,9 @@
     }
 
     img {
-        width: 100%;
+        width: 96%;
         height: auto;
-        margin: $spaceDefault auto;
+        margin: $spaceDefault 20px;
     }
 
     p {
@@ -31,5 +32,6 @@
         color: $colorDefaultW;
         padding: 2rem 0;
         width: 100%;
+        margin-left: $marginLeft;
     }
 }
