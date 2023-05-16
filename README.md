@@ -36,3 +36,19 @@
 
 ## Modules
 - `sass ./scss/style.scss ./css/style.css --watch` para ficar obervando toda vez que o arquivo scss estiver sendo alterado e alterar o css
+
+## BEM CSS
+- Block
+- Element
+- Modifier
+
+- Padrão do projeto / Design Paterns
+
+### Exemplo: 
+`b__e--m`
+- .cars__title
+- .cars__list
+- .cars__item
+- .cars__item--destack
+- .cars__button
+- .cars__img-container

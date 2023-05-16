@@ -5,7 +5,7 @@
     padding: $spaceDefault;
     margin: 17px -9.5px;
 
-    h1 {
+    &__title {
         color: $colorDefaultW;
         float: left;
         font-size: $fontBig;
@@ -13,7 +13,7 @@
         margin-left: $marginLeft;
     }
 
-    h2 {
+    &__subtitle {
         float: left;
         font-size: $fontSmall;
         margin-left: $spaceDefault;
@@ -21,13 +21,13 @@
         color: $color5;
     }
 
-    img {
+    &__image {
         width: 96%;
         height: auto;
         margin: $spaceDefault 20px;
     }
 
-    p {
+    &__description {
         font-size: $fontNormal;
         color: $colorDefaultW;
         padding: 2rem 0;

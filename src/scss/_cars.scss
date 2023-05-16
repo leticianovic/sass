@@ -2,7 +2,28 @@
 @import 'blocks';
 
 .cars {
-    .cDestack {
-        @include theme;
+
+    &__title {
+        color: $colorDefaultB;
+    }
+
+    &__item {
+        background-color: $colorDefaultW;
+        display: flex;
+        float: left;
+        height: max-content;
+        justify-content: center;
+        align-items: baseline;
+        flex-flow: column;
+
+        &--destack {
+            @include theme;
+        }
+    }
+
+    &__description {
+        &--destack {
+            color: $colorDefaultW;
+        }
     }
 }

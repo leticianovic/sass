@@ -3,17 +3,18 @@
 
 
 .bikes {
+
     margin-top: 70px;
 
-    h2 {
+    &__title {
         color: $color1;
     }
 
-    li {
+    &__item {
         color: $color1;
+    }
 
-        a {
-            background-color: $color3;
-        }
+    &__button {
+        background-color: $color3;
     }
 }
